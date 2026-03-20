@@ -1,4 +1,5 @@
 import { useState } from "react";
+import { Link } from "react-router-dom";
 
 const Home = () => {
   const users = [
@@ -9,9 +10,11 @@ const Home = () => {
 
   return (
     <div className="py-10 px-24">
-      <button className="bg-slate-500 hover:bg-slate-700 duration-300 text-lg text-white mb-4 px-3 py-1 rounded">
-        Add User
-      </button>
+      <Link to="/add">
+        <button className="bg-slate-500 hover:bg-slate-700 duration-300 text-lg text-white mb-4 px-3 py-1 rounded">
+          Add User
+        </button>
+      </Link>
 
       <div className="overflow-x-auto">
         <table className="min-w-full bg-white shadow-md rounded-lg overflow-hidden">
