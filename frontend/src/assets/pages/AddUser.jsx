@@ -36,7 +36,7 @@ function AddUser() {
             <label className="block mb-1 font-medium">Age</label>
             <input
               type="tel"
-              name="mobile"
+              name="Age"
               placeholder="Enter your Age"
               className="w-full border border-slate-400 p-2 rounded focus:outline-none focus:ring-1 focus:ring-slate-500"
             />
